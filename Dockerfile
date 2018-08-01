@@ -60,5 +60,7 @@ RUN pip install numpy scipy
 
 RUN pip install cvxpy
 
+RUN pip install glpk
+
 USER docker
 CMD /bin/bash
