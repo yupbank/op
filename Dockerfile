@@ -50,7 +50,7 @@ RUN apt-get update && \
 RUN useradd -m docker && echo "docker:docker" | chpasswd && adduser docker sudo
 
 RUN apt-get install -y python python-dev ipython python-pip libatlas-base-dev gfortran \
- python-glpk glpk-utils
+glpk-utils
 
 RUN python -m pip install --upgrade pip
 
